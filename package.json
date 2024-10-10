@@ -1,0 +1,33 @@
+{
+  "name": "locationbot",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs --production"
+  },
+  "devDependencies": {
+    "@es-exec/esbuild-plugin-start": "0.0.5",
+    "@tsconfig/node20": "20.1.4",
+    "esbuild": "0.21.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.2"
+  },
+  "author": "Florian Adonis <tanohzana@gmail.com>",
+  "license": "ISC",
+  "keywords": [
+    "ai",
+    "llama",
+    "map",
+    "location",
+    "extraction",
+    "geolocation",
+    "country",
+    "city",
+    "state",
+    "automation"
+  ],
+  "description": "Enhance your apps with accurate location extraction. Our tool parses country, state, and city from any string—even with spelling errors—ensuring reliable geolocation data for seamless automation.",
+  "dependencies": {
+    "axios": "1.7.7"
+  }
+}
